@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Настройка профиля</title>
+	<link rel="stylesheet" type="text/css" href="css/specialist_edit_profile.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__container">
+			<div class="header__wrapper">
+				<div class="logo">YOUR<br> <span>Services</span></div>
+				<nav class="site-navigation">
+					<ul class="site-navigation__list">
+						<li class="site-navigation__item">
+							<a class="site-navigation__link">Сообщения</a>
+						</li>
+						<li class="site-navigation__item">
+							<a class="site-navigation__link">Мои заказы</a>
+						</li>
+						<li class="site-navigation__item">
+							<a class="site-navigation__link">Разместить объявление</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-authorization">
+					<button class="logout">Выход</button>
+					<button class="specialist-info">Исполнитель: ИВАН ИВАНОВ</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="settings">
+		<p class="settings__title">Специальные настройки профиля, обязательные только для исполнителя</p>
+		<p class="settings__text">Для того чтобы отображаться в списке как исполнитель и выполнять заказы, заполните специальные поля в форме ниже</p>
+	</section>
+	<section class="form">
+		<div class="form__container">
+			<form action="#">
+				<div class="form__wrapper">
+					<p class="form__you-services">Ваши услуги:</p>
+					<input class="form__file" type="file" id="file">
+					<label class="form__label" for="file">Добавить услугу</label>
+					<p class="form__about-me">Обо мне:</p>
+					<textarea name="" id="" class="form__description" placeholder="Краткий рассказ о Ваших навыках и услугах, расценках:"></textarea>
+					<p class="form__education">Информация об образовании:</p>
+				</div>
+				<div class="form__box">
+						<select class="form__select" name="" id="">
+							<option value="" selected>Бакалавр</option>
+						</select>
+						<input class="form__input" type="text" placeholder="Учебное заведение:">
+						<input class="form__input" type="text" placeholder="Специальность">
+						<input class="form__input" type="date" placeholder="Год окончания">
+				</div>
+				<input class="form__file" type="file" id="file-2">
+				<label class="form__label form__label2" for="file-2">Добавить диплом</label>
+				<button class="form__button">Сохранить изменения</button>
+			</form>	
+		</div>
+	</section>
+	<section class="edit">
+		<button class="edit__button">Редактировать общие настройки профиля</button>
+		<button class="edit__remove">Удалить меня, как исполнителя</button>
+	</section>
+	<footer class="footer">
+			<div class="container__footer">
+				<div class="footer__wrapper">
+					<div class="footer__column">
+						<div class="footer__logo">YOUR<br> <span>Services</span></div>
+						<div class="footer__copyright">&copy; 2020 YOUR Services. Все права защищены</div>
+					</div>
+					<ul class="footer__column">
+						<li class="footer__item">
+							<a href="#" class="footer__link">Политика конфиденциальности</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">Пользовательское соглашение</a>
+						</li>
+					</ul>
+					<div class="footer__column">
+						<div>
+						    <a href="#" class="footer__button">Написать нам</a>
+					     </div>
+						<a href="#" class="footer__mail">info@your-services.ru</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
