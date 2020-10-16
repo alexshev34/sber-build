@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Настройка профиля</title>
+	<link rel="stylesheet" type="text/css" href="css/general_edit_profile.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__container">
+			<div class="header__wrapper">
+				<div class="logo">YOUR<br> <span>Services</span></div>
+				<nav class="site-navigation">
+					<ul class="site-navigation__list">
+						<li class="site-navigation__item">
+							<a class="site-navigation__link">Сообщения</a>
+						</li>
+						<li class="site-navigation__item">
+							<a class="site-navigation__link">Мои заказы</a>
+						</li>
+						<li class="site-navigation__item">
+							<a class="site-navigation__link">Новый заказ</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-authorization">
+					<button class="logout">Выход</button>
+					<button class="specialist-info">Заказчик: ИВАН ИВАНОВ</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="profile">
+		<div class="profile__container">
+			<p class="profile__title">Общие настройки профиля</p>
+			<p class="profile__text">Для того чтобы отображаться в списке как исполнитель и выполнять заказы, заполните форму перейдя по ссылке внизу страницы "Добавить меня как исполнителя"</p>
+			<form action="#" class="profile__form">
+				<div class="profile__box-photo">
+					<img src="img-messendg/photo-icon.png" alt="">
+					<input class="profile__input" type="file" id="profile">
+					<label class="profile__label" for="profile">Изменить фото</label>
+				</div>
+				<div class="info">
+					<h2 class="info__title">Основная информация</h2>
+					<div class="info__form">
+						<input class="info__input" type="text" placeholder="Имя:">
+						<input class="info__input" type="text" placeholder="Отчество:">
+						<input class="info__input" type="text" placeholder="Фамилия:">
+						<input class="info__input" type="date" placeholder="Дата Рождения:">
+						<input class="info__input" type="text" placeholder="e-mail:">
+						<input class="info__input" type="text" placeholder="Телефон:">
+						<input class="info__input" type="text" placeholder="Страна:">
+						<input class="info__input" type="text" placeholder="Город:">
+						<div>
+							<input class="info__check" type="checkbox">
+							<label>Получать уведомления о заказах на электронную почту</label>
+						</div>
+					</div>
+				</div>
+				<div class="registration">
+					<h2 class="registration__title">Привязка социальных сетей:</h2>
+					<ul class="registration__list">
+						<li class="registration__item">
+							<a class="registration__link" href="#">ВКонтакте</a>
+						</li>
+						<li class="registration__item">
+							<a class="registration__link" href="#">Facebook</a>
+						</li>
+						<li class="registration__item">
+							<a class="registration__link registration__od" href="#">Одноклассники</a>
+						</li>
+						<li class="registration__item">
+							<a class="registration__link" href="#">Google</a>
+						</li>
+					</ul>
+				</div>
+				<div class="payment">
+					<p class="payment__title">Платежная информация:</p>
+					<input class="payment__file" type="file" id="payment">
+					<label class="payment__label" for="payment">Привязать карту</label>
+				</div>
+				<button class="profile__button">Сохранить изменения</button>
+			</form>
+		</div>
+	</section>
+	<section class="edit">
+		<button class="edit__button">Добавить меня как исполнитель</button>
+		<button class="edit__remove">Удалить мой профиль</button>
+	</section>
+	<footer class="footer">
+		<div class="container__footer">
+			<div class="footer__wrapper">
+				<div class="footer__column">
+					<div class="footer__logo">YOUR<br> <span>Services</span></div>
+					<div class="footer__copyright">&copy; 2020 YOUR Services. Все права защищены</div>
+				</div>
+				<ul class="footer__column">
+					<li class="footer__item">
+						<a href="#" class="footer__link">Политика конфиденциальности</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Пользовательское соглашение</a>
+					</li>
+				</ul>
+				<div class="footer__column">
+					<div>
+						<a href="#" class="footer__button">Написать нам</a>
+					</div>
+					<a href="#" class="footer__mail">info@your-services.ru</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
